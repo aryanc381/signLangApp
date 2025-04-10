@@ -17,5 +17,6 @@ footer {visibility: hidden;}
 """
 st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 
-# Immediate redirect to signup page
-switch_page("signup")  # ✅ Just "signup", no "pages/" prefix
+# ✅ Safe auto redirect
+if st._is_running_with_streamlit:
+    switch_page("signup")
