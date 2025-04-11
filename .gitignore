@@ -1,0 +1,9 @@
+# Ignore Firebase credentials
+*.json
+.env
+
+# Ignore Python cache and virtual environment
+__pycache__/
+*.pyc
+.env/
+venv/

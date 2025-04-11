@@ -1,0 +1,7 @@
+python3-distutils
+build-essential
+zlib1g-dev
+libjpeg-dev
+libpng-dev
+libgl1
+libportaudio2
